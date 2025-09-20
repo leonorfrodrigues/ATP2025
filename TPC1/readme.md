@@ -13,11 +13,12 @@ Resolução do desafio proposto Maze 10 e representação de comboio no desafio 
 ## Resolução
 * res1- imagem da resolução do Maze nível 10:
 
- ![Maze 10](Maze%2010.png)
+![Maze 10](Maze%2010.png)
 
 * res2- imagem da resolução do comboio:
 
-  ![Comboio](Comboio.png)
+![Comboio](Comboio.png)
+
 
 
 
