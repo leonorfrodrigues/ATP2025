@@ -2,7 +2,9 @@
 
 ## Autor 
 
-Leonor Ferreira Rodrigues, a111548,  
+Leonor Ferreira Rodrigues, a111548,
+
+![Foto](Foto-cartão.jpg)
 
 
 ## Resumo
