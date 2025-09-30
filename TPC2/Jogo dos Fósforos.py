@@ -1,16 +1,14 @@
 #Jogo com o computador a jogar 1º
 from random import randint
 
-
-
 def game1():
     print("O computador joga primeiro")
     total=21
     while total>1:
-        if total>4:
-            com=randint(1,4)
-        else: 
-            com=randint(1,total-1)
+        com = (total - 1) % 5
+        if com == 0: 
+            com = randint(1,4)
+
         print(f"O computador retirou {com}")
         total=total-com 
         print(f"Restam {total}")
@@ -34,7 +32,7 @@ def game1():
             print("Ganhaste!, o computador ficou com o último fósforo")
             y=input("Gostarias de jogar de novo?: ")
             if y.lower()=="s":
-                z=input("Gostarias de experimentar jogar em segundo?:")
+                z=input("Gostarias de experimentar jogar em primeiro?:")
                 if z.lower()=="s":
                     game1()
                 else:
@@ -59,7 +57,6 @@ def game2():
 
         if total == 1:
             print("Ganhaste! O computador ficou com o último fósforo.")
-            return
 
         # computador joga de forma "inteligente"
         com = (total - 1) % 5
@@ -93,6 +90,4 @@ if x=="s" or x=="S":
 
 else:
     game1()
-
-
 
