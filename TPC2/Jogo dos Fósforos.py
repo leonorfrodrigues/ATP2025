@@ -31,11 +31,15 @@ def game1():
 
         if total==1:
             print("Ganhaste!, o computador ficou com o último fósforo")
-            return
-    
-    y=input("Gostarias de jogar de novo?: ")
-    if y.lower()=="s":
-        game1()
+            y=input("Gostarias de jogar de novo?: ")
+            if y.lower()=="s":
+                z=input("Gostarias de experimentar jogar em segundo?:")
+                if z.lower()=="s":
+                    game1()
+                else:
+                    game2()
+            else:
+                print("That's all folks!")
         
 #Jogo com o computador em 2º
 def game2():
@@ -65,10 +69,16 @@ def game2():
 
         if total == 1:
             print("Perdeste! Ficaste com o último fósforo.")
-
-    y=input("Gostarias de jogar de novo?: ")
-    if y.lower()=="s":
-        game2()
+            y=input("Gostarias de jogar de novo?: ")
+            if y.lower()=="s":
+                z=input("Gostarias de experimentar jogar em segundo?:")
+                if z.lower()=="s":
+                    game1()
+                else:
+                    game2()
+            else:
+                print("That's all folks!")
+                
 
 
 
@@ -83,3 +93,6 @@ if x=="s" or x=="S":
 else:
     print("O computador joga primeiro")
     game1()
+
+
+
