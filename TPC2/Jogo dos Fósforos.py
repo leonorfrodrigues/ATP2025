@@ -4,6 +4,7 @@ from random import randint
 
 
 def game1():
+    print("O computador joga primeiro")
     total=21
     while total>1:
         if total>4:
@@ -43,6 +44,7 @@ def game1():
         
 #Jogo com o computador em 2º
 def game2():
+    print("És o primeiro a jogar")
     total = 21
     while total>1:
         while True:
@@ -87,11 +89,9 @@ def game2():
 input("Bem vindo ao jogo dos fósforos inicialmente começa com 21 fósforos e vão sendo retirados 1,2,3 ou 4 fósforos vence aquele que não retirar o último fósforo")
 x=input("Gostaria de ser o primeiro a jogar, responde s ou n: ")
 if x=="s" or x=="S":
-    print("És o primeiro a jogar")
     game2()
 
 else:
-    print("O computador joga primeiro")
     game1()
 
 
