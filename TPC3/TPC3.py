@@ -31,7 +31,7 @@ def media_elem(res):
     return med
 
 def maior_elem(res):
-    maior=0
+    maior=res[0]
     for elem in res:
         if maior<=elem:#verifica que se o elemento em teste for maior que o guardado anteriormente então esse irá ser armazenado 
             maior=elem
@@ -39,7 +39,7 @@ def maior_elem(res):
     return maior
 
 def menor_elem(res):
-    menor=0
+    menor=res[0]
     for elem in res:
         if menor>=elem:
             menor=elem
@@ -116,3 +116,4 @@ while True:
     else:
         print("Opção inválida ou lista ainda não criada.")
         break
+
