@@ -74,8 +74,8 @@ def menu():
     (1) Reset
     (2) Filmes em exibição 
     (3) Adicionar Sala
-    (4) Comprar bilhete
-    (5) Desmarcar 
+    (4) Vender bilhete
+    (5) Devolução do bilhete
     (6) Lista de disponibilidades
     (7) O lugar está disponível?
     (8) Remover Sala
@@ -119,4 +119,5 @@ def menu():
       print("May the force be with you, até à próxima!")
     else:
       print("Opção inválida, tente novamente")
+
 
