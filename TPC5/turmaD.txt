@@ -1,0 +1,6 @@
+Manuel Castro;111354;15.0@16.0@17.0
+Josefina Neiva;11648;16.0@18.0@12.0
+Paulo Vaz;116564;15.0@18.0@14.0
+Ana Ferreira;65412;19.0@14.0@15.0
+Helena Rodrigues;45632;19.0@20.0@20.0
+
